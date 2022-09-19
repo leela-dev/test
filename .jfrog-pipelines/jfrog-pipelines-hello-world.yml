@@ -13,7 +13,7 @@ resources:
         # Specifies which branches will trigger dependent steps
         include: master
 
-  - name: myPropertyBag
+  - name: myPropertyBagNew
     type: PropertyBag
     configuration:
       commitSha: 1
@@ -58,7 +58,7 @@ pipelines:
           inputSteps:
             - name: p1_s2
           outputResources:
-            - name: myPropertyBag
+            - name: myPropertyBagNew
         execution:
           onExecute:
             - echo $current_runid
