@@ -1,0 +1,3 @@
+test:
+  gitProvider: MyGitHub
+  path: leelapadmaja-0908/test
